@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function changenumber(){
+            multiplicateur=1000
+            number=Math.floor(Math.random()*multiplicateur)
+            document.getElementById("boutton").textContent=number
+        }
+    </script>
+    <div>
+        <button onclick="changenumber()" id="boutton">Click me</button>
+    </div>
+</body>
+</html>

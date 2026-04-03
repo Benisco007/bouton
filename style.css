@@ -1,0 +1,17 @@
+body div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+div button{
+    padding: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color:#7700ff;
+    background-color: rgb(206, 214, 214);
+    box-shadow: 1px 3px 2px rgb(88, 88, 88);
+    
+}
